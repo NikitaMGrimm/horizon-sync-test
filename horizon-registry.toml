@@ -1,0 +1,5 @@
+name = "Sync Test Pack"
+summary = "A tiny resource pack that tests the registry's release sync."
+description = "A test resource pack made to check that the registry reads a repository's releases. It changes nothing in the game."
+authors = ["NikitaMGrimm"]
+license = "MIT"
