@@ -138,7 +138,8 @@ the old combined-game proposal #381 is not revived.
 
 Trusted validation and publication jobs build the pinned checker fresh and restore no Actions cache. So that hourly
 runs don't count as players' downloads, each publish uploads the files it verified as a short-lived artifact, and
-the next one takes them from the last successful publish run, outside the checkout; every byte is rehashed against
+the next one, and every pull request's check, takes them from the last successful publish run, outside the checkout
+(a check then downloads only the pull request's new files); every byte is rehashed against
 its entry, kept or downloaded, and anything missing or mismatched is downloaded again from the original version
 release or staging. The ordinary index builder then checks package structure, metadata and author
 signatures before anything is published. Existing SDK release signature/provenance authority stays in the engine's
