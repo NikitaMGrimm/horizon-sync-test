@@ -76,3 +76,4 @@ Authors whose project was removed by mistake can ask for it back in that issue.
 ## Changes
 
 This policy can change. The version in this repository's `main` branch is the one that applies.
+
